@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover,
-nav ul li a.active {
+nav ul li a.main {
   background: white;
   color: #0a9396;
 }
@@ -75,60 +75,4 @@ h2 {
 p {
   font-size: 17px;
   color: #003844;
-}
-
-/* ===== LANGUAGES PAGE STYLING ===== */
-.lang-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.lang-card {
-  width: 380px;
-  padding: 30px;
-  border-radius: 20px;
-  border: 2px solid #a6e3e9;
-  transition: 0.3s ease;
-}
-
-/* Unique gradient colors for each card */
-.lang-card.html {
-  background: linear-gradient(135deg, #fff4e6, #ffe6cc);
-  border-color: #ffc48c;
-}
-
-.lang-card.css {
-  background: linear-gradient(135deg, #e6f7ff, #ccf2ff);
-  border-color: #90e0ef;
-}
-
-.lang-card:hover {
-  transform: scale(1.03);
-  background: #ffffff;
-  border-color: #0a9396;
-}
-
-/* Text inside cards */
-.lang-card h3 {
-  color: #005f73;
-  border-bottom: 2px solid #0a9396;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-top: 0;
-}
-
-.lang-card p {
-  color: #003844;
-  font-size: 16px;
-  margin-top: 12px;
-}
-
-.lang-card ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  color: #004b52;
-  margin-top: 10px;
 }
