@@ -1,0 +1,134 @@
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e3fdfd, #e6f4f1);
+  color: #003844;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #001f3f, #0a9396);
+  color: #ffffff;
+  text-align: center;
+  padding: 55px 10px;
+}
+
+header h1 {
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ===== NAVIGATION ===== */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: white;
+  color: #0a9396;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #cdeaea;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #005f73;
+  border-left: 5px solid #0a9396;
+  padding-left: 10px;
+  font-size: 26px;
+}
+
+p {
+  font-size: 17px;
+  color: #003844;
+}
+
+/* ===== LANGUAGES PAGE STYLING ===== */
+.lang-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.lang-card {
+  width: 380px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #a6e3e9;
+  transition: 0.3s ease;
+}
+
+/* Unique gradient colors for each card */
+.lang-card.html {
+  background: linear-gradient(135deg, #fff4e6, #ffe6cc);
+  border-color: #ffc48c;
+}
+
+.lang-card.css {
+  background: linear-gradient(135deg, #e6f7ff, #ccf2ff);
+  border-color: #90e0ef;
+}
+
+.lang-card:hover {
+  transform: scale(1.03);
+  background: #ffffff;
+  border-color: #0a9396;
+}
+
+/* Text inside cards */
+.lang-card h3 {
+  color: #005f73;
+  border-bottom: 2px solid #0a9396;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+.lang-card p {
+  color: #003844;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.lang-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #004b52;
+  margin-top: 10px;
+}
