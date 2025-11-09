@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -80,10 +83,22 @@ p {
 
 h5{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 section ul li{
   color:#003844;
   font-size: 20px;
+}
+
+ul > li >a{
+  color:black;
+  text-decoration: underline;
+}
+
+.roadmap{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
 }
