@@ -65,15 +65,25 @@ h2 {
   color: #005f73;
   border-left: 5px solid #0a9396;
   padding-left: 10px;
-  font-size: 26px;
+  font-size: 30px;
+}
+
+h3{
+  color: #003844;
+  font-size: 28px;
 }
 
 p {
-  font-size: 17px;
+  font-size: 22px;
   color: #003844;
 }
 
 h5{
   display: flex;
   justify-content: center;
+}
+
+section ul li{
+  color:#003844;
+  font-size: 20px;
 }
